@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Contact Me</title>
+
+<!----------Internal links------>
+  <link href="dreamybokeh.css" type="text/css" rel="stylesheet">
+
+<!----------meta links------>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+
+<h1>Dreamy Bokeh</h1>
+
+<div id="main">
+<button class="openbtn" onclick="openNav()">☰Start </button>  
+</div>
+
+<div id="mySidebar" class="sidebar">
+ <a href="javascript:void(0)" class="openbtn" onclick="closeNav()">×</a>
+  <a href="dreamy bokeh.html">Home</a>
+  <a href="aboutme.html">About</a>
+  <a href="services">Services</a>
+  <a href="#">Clients</a>
+ 
+</div>
+
+
+<h1>Contact Me</h1>
+
+
+<br>
+<body>
+<p>Like what you see? Contact me for more details and if you would like to book a service. I will provide you with a quote. Thank you!</p>
+
+<p>Please fill out the form below. Thanks.</p>
+
+<form action="clientlogin.html">
+  First name:<br>
+  <input type="text" name="firstname" value="">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" value="">
+  <br>
+  Email:<br>
+  <input type="text" name="email" placeholder="sophie@example.com" value="">
+  <br>
+  Phone Number:<br>
+  <input type="text" name="phone" value="">
+  <br>
+  <br>
+  Message:<br>
+  <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
+  <br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("demo").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("demo").style.marginLeft= "206px";
+}
+</script>
+
+
+
+</body>
+
+
+
+
+</html>
