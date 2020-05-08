@@ -65,6 +65,7 @@ p{
 //color: Black;
  background-color: black;
  padding: 1px;
+margin-right:  549px;
 }
 
 .sidebar {
@@ -240,9 +241,17 @@ hr {
 }
 
 /* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 1080px) {
   .cancelbtn, .signupbtn {
      width: 100%;
+
+}
+
+.carousel-control-prev, .carousel-control-next{
+margin-right:auto;
+
+
+
   }
 }
 
